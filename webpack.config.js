@@ -7,7 +7,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'jsonp.js',
-    library: 'jsonp'
+    library: 'jsonp',
+    libraryTarget: 'umd'
   },
   devtool: 'source-map',
   module: {
