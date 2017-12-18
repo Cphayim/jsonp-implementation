@@ -9,6 +9,14 @@
   },
   "author": "Cphayim",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cphayim/jsonp-implementation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cphayim/jsonp-implementation/issues"
+  },
+  "homepage": "https://github.com/Cphayim/jsonp-implementation#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
