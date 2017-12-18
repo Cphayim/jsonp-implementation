@@ -1,6 +1,6 @@
 {
   "name": "cy-jsonp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jsonp-implementation",
   "main": "./dist/jsonp.js",
   "scripts": {
