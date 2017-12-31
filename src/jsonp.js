@@ -2,7 +2,7 @@
  * @Author: Cphayim 
  * @Date: 2017-12-18 14:27:12 
  * @Last Modified by: Cphayim
- * @Last Modified time: 2017-12-18 14:28:14
+ * @Last Modified time: 2017-12-31 19:00:17
  */
 
 /**
@@ -49,7 +49,7 @@ export default function jsonp(url, data, opts, cb) {
   const param = opts.param || 'callback',
     prefix = opts.prefix || 'jsonp',
     id = opts.name || prefix + count++,
-    timeout = ~~opts.timeout ? opts.timeout : 60000
+    timeout = typeof opts.timeout === 'number' ? ~~opts.timeout : 60000
 
   const queryString = getQueryString(data)
 
