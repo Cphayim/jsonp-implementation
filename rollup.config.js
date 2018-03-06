@@ -5,7 +5,7 @@ export default {
   input: 'src/jsonp.js',
   output: {
     file: 'dist/jsonp.js',
-    format: 'cjs',
+    format: 'umd',
     sourcemap: true,
     name: 'jsonp'
   },
